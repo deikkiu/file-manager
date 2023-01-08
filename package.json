@@ -3,7 +3,9 @@
     "version": "1.0.0",
     "type": "module",
     "scripts": {
-      "start": "node src/index.js"
+      "start": "node src/index.js",
+      "start:named": "node src/index.js --username=SomeUser",
+      "test": "echo \"Error: no test specified\" && exit 1"
     },
     "repository": {
       "type": "git",
@@ -12,7 +14,7 @@
     "keywords": [
       "nodejs"
     ],
-    "author": "deikkiu",
+    "author": "deikki@mail.ru",
     "license": "ISC",
     "homepage": "https://github.com/deikkiu/file-manager#readme"
   }
